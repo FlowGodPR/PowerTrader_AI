@@ -307,14 +307,14 @@ DEFAULT_SETTINGS = {
     "main_neural_dir": "",
     "coins": ["BTC", "ETH", "XRP", "BNB", "DOGE"],
     "trade_start_level": 3,  # trade starts when long signal >= this level (1..7)
-    "start_allocation_pct": 0.005,  # % of total account value for initial entry (min $0.50 per coin)
+    "start_allocation_pct": 0.015,  # % of total account value for initial entry (min $0.50 per coin)
     "dca_multiplier": 2.0,  # DCA buy size = current value * this (2.0 => total scales ~3x per DCA)
-    "dca_levels": [-2.5, -5.0, -10.0, -20.0, -30.0, -40.0, -50.0],  # Hard DCA triggers (percent PnL)
+    "dca_levels": [-3.0, -6.0, -12.0, -18.0, -25.0, -35.0, -50.0],  # Hard DCA triggers (percent PnL)
     "max_dca_buys_per_24h": 2,  # max DCA buys per coin in rolling 24h window (0 disables DCA buys)
 
     # --- Trailing Profit Margin settings (used by pt_trader.py; shown in GUI settings) ---
-    "pm_start_pct_no_dca": 5.0,
-    "pm_start_pct_with_dca": 2.5,
+    "pm_start_pct_no_dca": 8.0,
+    "pm_start_pct_with_dca": 6.0,
     "trailing_gap_pct": 0.5,
 
     "default_timeframe": "1hour",

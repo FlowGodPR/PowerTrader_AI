@@ -43,14 +43,14 @@ _gui_settings_cache = {
 	"coins": ['BTC', 'ETH', 'XRP', 'BNB', 'DOGE'],  # fallback defaults
 	"main_neural_dir": None,
 	"trade_start_level": 3,
-	"start_allocation_pct": 0.005,
+	"start_allocation_pct": 0.015,
 	"dca_multiplier": 2.0,
-	"dca_levels": [-2.5, -5.0, -10.0, -20.0, -30.0, -40.0, -50.0],
+	"dca_levels": [-3.0, -6.0, -12.0, -18.0, -25.0, -35.0, -50.0],
 	"max_dca_buys_per_24h": 2,
 
 	# Trailing PM settings (defaults match previous hardcoded behavior)
-	"pm_start_pct_no_dca": 5.0,
-	"pm_start_pct_with_dca": 2.5,
+	"pm_start_pct_no_dca": 8.0,
+	"pm_start_pct_with_dca": 6.0,
 	"trailing_gap_pct": 0.5,
 }
 
